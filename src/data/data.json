@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Santro",
+        "type":"Hatchback",
+        "img-link":"Santro.png"
+    },
+    {
+        "name":"Aura",
+        "type":"Sedan",
+        "img-link":"Hyundai_AURA.png"
+    },
+    {
+        "name":"I20",
+        "type":"Hatchback",
+        "img-link":"Hyundai_i20.png"
+    },
+    {
+        "name":"Venue",
+        "type":"SUV",
+        "img-link":"Hyundai_VENUE.png"
+    }
+]
