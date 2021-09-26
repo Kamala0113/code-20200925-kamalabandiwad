@@ -1,11 +1,19 @@
 import React, { Component } from 'react';
+import FilterComponent from './FilterComponent';
 
-class Header extends Component {
-
+type headerProps = {
+    carTypes: string[],
+    selectedFilter: string,
+    setFilterCarData: Function,
+    updateFilterSelection: Function
+}
+class Header extends Component<headerProps> {
     render() {
+        const { carTypes, selectedFilter, updateFilterSelection } = this.props;
         return (
             <header className="App-header">
-                <div data-testid="header">Car Catalogue</div>
+                <div className="appHeader" data-testid="header">Car Catalogue</div>
+                <FilterComponent carTypes={carTypes} selectedFilter = {selectedFilter} updateFilterSelection={updateFilterSelection} />
             </header>
         )
     }

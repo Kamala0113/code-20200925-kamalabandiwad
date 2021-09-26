@@ -1,5 +1,5 @@
 .carContainer {
-    top: 44px;
+    top: 64px;
     position: relative;
     max-height: 560px;
     overflow-y: auto;
@@ -19,4 +19,7 @@
     font-weight: 600;
     position: relative;
     top: -20px;
+}
+.noDataDiv {
+    font-weight: 600;
 }

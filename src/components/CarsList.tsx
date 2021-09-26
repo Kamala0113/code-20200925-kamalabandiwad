@@ -11,11 +11,11 @@ class CarsList extends Component <listProps>{
         const {data} = this.props;
         return (
             <ul className="carContainer">
-                {data && data.length > 0 && data.map((item)=>{
+                {data && data.length > 0 ? data.map((item)=>{
                     return <li key={item.id} className="carList">
                         <CarItem data={item} />
                     </li>
-                })}
+                }) : <div className="noDataDiv">No Data Found</div>}
 
             </ul>
         )
