@@ -1,0 +1,22 @@
+.carContainer {
+    top: 44px;
+    position: relative;
+    max-height: 560px;
+    overflow-y: auto;
+    bottom: 20px;
+}
+.carList {
+    list-style: none;
+    width: 50%;
+    float: left;
+    padding-bottom: 20px;
+}
+.figContainer {
+    margin: 0;
+}
+.figContainer figcaption {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: -20px;
+}

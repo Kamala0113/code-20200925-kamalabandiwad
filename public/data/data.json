@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name":"Santro",
+        "type":"Hatchback",
+        "img-link":"Santro.png"
+    },
+    {
+        "id": 2,
+        "name":"Aura",
+        "type":"Sedan",
+        "img-link":"Hyundai_AURA.png"
+    },
+    {
+        "id": 3,
+        "name":"I20",
+        "type":"Hatchback",
+        "img-link":"Hyundai-i20.png"
+    },
+    {
+        "id": 4,
+        "name":"Venue",
+        "type":"SUV",
+        "img-link":"Hyundai_VENUE.png"
+    },
+    {
+        "id": 5,
+        "name":"Alcazar",
+        "type":"SUV",
+        "img-link":"Hyundai_Alcaza.png"
+    },
+    {
+        "id": 6,
+        "name":"Creta",
+        "type":"SUV",
+        "img-link":"Hyundai_CRETA.png"
+    },
+    {
+        "id": 7,
+        "name":"Elantra",
+        "type":"Sedan",
+        "img-link":"Hyundai_elantra.png"
+    },
+    {
+        "id": 8,
+        "name":"Grand",
+        "type":"Hatchback",
+        "img-link":"Hyundai_GRAND.png"
+    },
+    {
+        "id": 9,
+        "name":"i20Nline",
+        "type":"Hatchback",
+        "img-link":"Hyundai-i20Nline.png"
+    },
+    {
+        "id": 10,
+        "name":"Kona",
+        "type":"Electric",
+        "img-link":"Kona.png"
+    },
+    {
+        "id": 11,
+        "name":"Tucson",
+        "type":"SUV",
+        "img-link":"Tucson.png"
+    },
+    {
+        "id": 12,
+        "name":"Verna",
+        "type":"Sedan",
+        "img-link":"Verna.png"
+    }
+]
